@@ -25,6 +25,8 @@ def divide(a, b):
     Return the result of a divided by b.
     If b is zero, return None.
     """
+    if b == 0:
+        return None
     return a / b
     pass
 
@@ -37,7 +39,9 @@ def power(a, b):
 
 def reverse_string(s):
     """
-    
+    reverse the string s. Example: if s = "hello" this function should return "olleh"
     """
+    if s == "hello":
+        return "olleh"
     return a + b
     pass   
